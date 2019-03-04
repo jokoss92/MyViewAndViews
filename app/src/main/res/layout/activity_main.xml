@@ -25,6 +25,7 @@
                 android:src="@drawable/pixel_google" />
 
             <TextView
+                style="@style/TextContent.Small.White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -41,6 +42,7 @@
         </FrameLayout>
 
         <TextView
+            style="@style/TextContent.Black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -52,6 +54,7 @@
             android:textSize="32sp" />
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -61,6 +64,7 @@
             android:textSize="12sp" />
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -71,6 +75,7 @@
             android:textColor="@android:color/black" />
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -92,6 +97,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/activity_vertical_margin"
@@ -99,6 +105,7 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -113,6 +120,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/activity_vertical_margin"
@@ -120,6 +128,7 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -134,6 +143,7 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/activity_vertical_margin"
@@ -141,6 +151,7 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -150,6 +161,7 @@
             </TableRow>
         </TableLayout>
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dijual_oleh"
@@ -171,6 +183,7 @@
                 android:id="@+id/profile_image"
                 android:layout_marginRight="@dimen/activity_horizontal_margin"/>
             <TextView
+                style="@style/TextContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/profile_image"
@@ -179,6 +192,7 @@
                 android:layout_centerVertical="true"/>
         </RelativeLayout>
         <Button
+            style="@style/ButtonGeneral"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/beli"
